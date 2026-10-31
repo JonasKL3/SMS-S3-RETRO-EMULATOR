@@ -125,7 +125,7 @@
   "licenses/Z80-NOTICE.txt": "81cf34055831cf87dfbcd15dfec979b30eeea99a53d49ca4df221d1ae44445a6",
   "references/SMSPLUS-UPSTREAM.json": "b35b4fc33a0e8fca917503cdab064987a12a0862a55cd0394279fe7876acaf86",
   "release/RELEASE_NOTES.md": "07473430dac1bc9931aa283854edad83d2541f67ec8b19bcdb8ab04d386f0e61",
-  "release/package_release.py": "20b551d3d485227cddff081f0034a3cc425fd7cc530741a464f02fe061fb689e",
+  "release/package_release.py": "8c8c0d111fbee98e6f928a799c1aa7ec2c8ada3ce96897f5c308adc4ceb3d675",
   "sd_template/JOGOS/SMS/cache_indices/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "sd_template/JOGOS/SMS/capas_originais/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "sd_template/JOGOS/SMS/cover/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
