@@ -1,0 +1,38 @@
+compiled z80.c
+compiled loadrom.c
+compiled memz80.c
+compiled pio.c
+compiled render.c
+compiled sms.c
+compiled sms_platform.c
+compiled emu2413.c
+compiled fmintf.c
+compiled sn76489.c
+compiled sound.c
+compiled ym2413.c
+compiled state.c
+compiled system.c
+compiled tms.c
+compiled vdp.c
+ * sms_init: sms.console= 0x21
+ * sound_init: sample_count=368 fps=60 (actual=367.500000)
+ * sms_init: sms.console= 0x21
+ * sound_init: sample_count=368 fps=60 (actual=367.500000)
+SMS core PASS: real Z80 homebrew, Mode4 red pixels, PSG packets, pause NMI edges, buttons, state roundtrip/corruption, skipped drawing runs audio, unload/reload
+
+SMS states PASS: versioned header, ROM isolation, exact length, CRC before apply, semantic rejection, backup recovery, manual saves with autosave OFF, failed commit preserves principal
+
+[VIDEO][SMS] ASYNC loopCore=0 lcdCore=1 indexed=ON snapshots=2x61440B+palettes stripe=5120B DMA=OFF dirty=ON
+SMS indexed video PASS: 192/224/240 exact RGB565, immutable index+palette snapshots, palette-only repaint, pending replacement, dirty boundary/native stripes, padding, borders, fences, 200-frame coherent monotonic queue
+
+Covers PASS: no IO in draw, 160ms settle, 1024-byte maximum read, exact RGB565, cache hit without source, partial cancellation, missing/invalid retry, byte-swap restored
+
+Metadata PASS: flush/fsync/close commit, favorites/recent/volume roundtrip, write failure preserves committed file
+
+Z80 flags PASS: 131072 operand/carry cases, ADD/ADC/SUB/SBC and 65536 CP cases exactly match original tables
+
+ * sms_init: sms.console= 0x21
+ * sound_init: sample_count=368 fps=60 (actual=367.500000)
+Mode4 skip PASS: 64 overlapping/priority/scroll/left-mask/zoom/overflow scenes preserve complete CPU/VDP/PSG serialized state
+
+SMS-S3 HOST TESTS PASS (real core + UBSan, hardware stubs only; wrapper fault tests isolate core API)

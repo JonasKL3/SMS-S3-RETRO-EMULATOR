@@ -1,0 +1,219 @@
+{
+  "repository": "ducalex/retro-go",
+  "commit": "4ced120669750ca7228fd0414211430c1d923166",
+  "excluded": [
+    "coleco_bios.h (BIOS not distributed)"
+  ],
+  "files": [
+    {
+      "path": "retro-core/components/smsplus/CMakeLists.txt",
+      "git_blob_sha1": "61e4ad4609356555f680f20d54dac51f7a8f6ebc",
+      "bytes": 168
+    },
+    {
+      "path": "retro-core/components/smsplus/COPYING",
+      "git_blob_sha1": "a43ea2126fb6b114bff5f8e003ee118e045dacf1",
+      "bytes": 17982
+    },
+    {
+      "path": "retro-core/components/smsplus/CREDITS",
+      "git_blob_sha1": "511fdcae9d6a876deb95d1eda338497c348a0eb0",
+      "bytes": 1207
+    },
+    {
+      "path": "retro-core/components/smsplus/PORTING",
+      "git_blob_sha1": "6278caadb5739ae738fd96bbd94ac17da124871f",
+      "bytes": 16561
+    },
+    {
+      "path": "retro-core/components/smsplus/coleco_bios.h",
+      "git_blob_sha1": "937927bcfb53a4ef7638e30b9a97e967858148b7",
+      "bytes": 50631
+    },
+    {
+      "path": "retro-core/components/smsplus/cpu/cpuintrf.h",
+      "git_blob_sha1": "23c817448fbba3472f01db276896cbbb0a5bb4aa",
+      "bytes": 1608
+    },
+    {
+      "path": "retro-core/components/smsplus/cpu/osd_cpu.h",
+      "git_blob_sha1": "312b5d06813a861a6f00c5fc5ad8277337a389cb",
+      "bytes": 2636
+    },
+    {
+      "path": "retro-core/components/smsplus/cpu/z80.c",
+      "git_blob_sha1": "193119115ccac4cbbe20eb944e41cb270bc540a4",
+      "bytes": 108416
+    },
+    {
+      "path": "retro-core/components/smsplus/cpu/z80.h",
+      "git_blob_sha1": "ebc7ac1e546692f36d29b3c91d089d9b9f654b70",
+      "bytes": 2026
+    },
+    {
+      "path": "retro-core/components/smsplus/hvc.h",
+      "git_blob_sha1": "05dfbbbeff94881c06147870209f8ee8ddd37cc6",
+      "bytes": 13368
+    },
+    {
+      "path": "retro-core/components/smsplus/loadrom.c",
+      "git_blob_sha1": "793239636d655cc53dbb2f4fdfb302b19def32fe",
+      "bytes": 17377
+    },
+    {
+      "path": "retro-core/components/smsplus/loadrom.h",
+      "git_blob_sha1": "06d65cc93d185568fdb0b1a913485ccfd83258cf",
+      "bytes": 1287
+    },
+    {
+      "path": "retro-core/components/smsplus/memz80.c",
+      "git_blob_sha1": "1a5f56c54051e5ed4e972c718541544380244519",
+      "bytes": 9566
+    },
+    {
+      "path": "retro-core/components/smsplus/memz80.h",
+      "git_blob_sha1": "ce33f9acd94418e280849e0816956d079a8d50ef",
+      "bytes": 1688
+    },
+    {
+      "path": "retro-core/components/smsplus/pio.c",
+      "git_blob_sha1": "375d1480ac4100bbde349dd27ab6da32f9f981ce",
+      "bytes": 13618
+    },
+    {
+      "path": "retro-core/components/smsplus/pio.h",
+      "git_blob_sha1": "25ce7d6ad6f5bcca0fc41e45d98d6f2e70f133ae",
+      "bytes": 2650
+    },
+    {
+      "path": "retro-core/components/smsplus/render.c",
+      "git_blob_sha1": "6e5056315aeeba6e8b77f9279cee5052eb97ab1f",
+      "bytes": 19712
+    },
+    {
+      "path": "retro-core/components/smsplus/render.h",
+      "git_blob_sha1": "57f438365d5960cc91242f72b0a109f1e82437ed",
+      "bytes": 1870
+    },
+    {
+      "path": "retro-core/components/smsplus/shared.h",
+      "git_blob_sha1": "499faddfe307aedc477c768add7b47b554a803f2",
+      "bytes": 1344
+    },
+    {
+      "path": "retro-core/components/smsplus/sms.c",
+      "git_blob_sha1": "5497b0be05dd765212176a8fff2018b1993cdb5e",
+      "bytes": 13313
+    },
+    {
+      "path": "retro-core/components/smsplus/sms.h",
+      "git_blob_sha1": "a76a5f6db9f095237441fe6a46cf6b0921fd4728",
+      "bytes": 3659
+    },
+    {
+      "path": "retro-core/components/smsplus/smsplus.h",
+      "git_blob_sha1": "64a2aebc2396425f26954e789aa9c511f977ae65",
+      "bytes": 20
+    },
+    {
+      "path": "retro-core/components/smsplus/sound/2413tone.h",
+      "git_blob_sha1": "b5f8958e843005473d59b51da02e8cf468390cd9",
+      "bytes": 1843
+    },
+    {
+      "path": "retro-core/components/smsplus/sound/emu2413.c",
+      "git_blob_sha1": "5f0846c47eee5e07b20c3f3e0771712d4443afee",
+      "bytes": 42008
+    },
+    {
+      "path": "retro-core/components/smsplus/sound/emu2413.h",
+      "git_blob_sha1": "3b7c1fc576d523d17ddf2ecad701a4b4a7f19214",
+      "bytes": 3872
+    },
+    {
+      "path": "retro-core/components/smsplus/sound/fmintf.c",
+      "git_blob_sha1": "099b3fc194617d0443c4b6da3e9749516614cc0a",
+      "bytes": 2452
+    },
+    {
+      "path": "retro-core/components/smsplus/sound/fmintf.h",
+      "git_blob_sha1": "08345a87e59b243aef386a3e38d52a04c88ba580",
+      "bytes": 653
+    },
+    {
+      "path": "retro-core/components/smsplus/sound/sn76489.c",
+      "git_blob_sha1": "710f140f13dbfa13645a65f17d503bf2ae4de4fd",
+      "bytes": 9451
+    },
+    {
+      "path": "retro-core/components/smsplus/sound/sn76489.h",
+      "git_blob_sha1": "8293da82af03f5fedea2903bd4b892eef8eb3b64",
+      "bytes": 2623
+    },
+    {
+      "path": "retro-core/components/smsplus/sound/sound.c",
+      "git_blob_sha1": "7d223fb2863565baff6a0bc103f01dcb0c0a5b07",
+      "bytes": 7119
+    },
+    {
+      "path": "retro-core/components/smsplus/sound/sound.h",
+      "git_blob_sha1": "369f86b303ad2952a12be6f83de56b888ce66072",
+      "bytes": 2087
+    },
+    {
+      "path": "retro-core/components/smsplus/sound/vrc7tone.h",
+      "git_blob_sha1": "bd2abf06c1267c200dcc6e5267825c5d4b16f5b9",
+      "bytes": 1841
+    },
+    {
+      "path": "retro-core/components/smsplus/sound/ym2413.c",
+      "git_blob_sha1": "c8a930a8c2378edc79409ecac6804d53123f8495",
+      "bytes": 57096
+    },
+    {
+      "path": "retro-core/components/smsplus/sound/ym2413.h",
+      "git_blob_sha1": "fde552eb2ecb194e2fedf5917029b5c3afe4194b",
+      "bytes": 1050
+    },
+    {
+      "path": "retro-core/components/smsplus/state.c",
+      "git_blob_sha1": "5c98131efeb2b4a9fa270919e7c32266f13a5723",
+      "bytes": 9057
+    },
+    {
+      "path": "retro-core/components/smsplus/state.h",
+      "git_blob_sha1": "93fc277b761bc418cc19a985741c0ba6d48085a9",
+      "bytes": 1363
+    },
+    {
+      "path": "retro-core/components/smsplus/system.c",
+      "git_blob_sha1": "76050263f6018e8026bae5a7507b161633a6f3a3",
+      "bytes": 4179
+    },
+    {
+      "path": "retro-core/components/smsplus/system.h",
+      "git_blob_sha1": "8e65d0e0879945a49c42a0814ab6f9fab4a1649d",
+      "bytes": 3483
+    },
+    {
+      "path": "retro-core/components/smsplus/tms.c",
+      "git_blob_sha1": "a4f6e8fa1d9e2cae32188e9d87698f7b55bf72ea",
+      "bytes": 16038
+    },
+    {
+      "path": "retro-core/components/smsplus/tms.h",
+      "git_blob_sha1": "b411fd74d830e88fc013a9f9f17a2722ba710161",
+      "bytes": 1314
+    },
+    {
+      "path": "retro-core/components/smsplus/vdp.c",
+      "git_blob_sha1": "3cc0ad8eef1d2b115ce753daba0ddcfe179dfb11",
+      "bytes": 11422
+    },
+    {
+      "path": "retro-core/components/smsplus/vdp.h",
+      "git_blob_sha1": "9a3031d161b7d00595c95f949d7d6aae6948d447",
+      "bytes": 2503
+    }
+  ]
+}

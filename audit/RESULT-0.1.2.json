@@ -1,0 +1,25 @@
+{
+  "project": "SMS",
+  "version": "0.1.2",
+  "build": "PASS",
+  "native_tests": "PASS",
+  "cpu_mhz": 240,
+  "flash_mb": 16,
+  "psram": "OPI",
+  "partition": "Huge APP",
+  "loop_core": 1,
+  "events_core": 1,
+  "program_bytes": 815891,
+  "global_bytes": 49124,
+  "elf_sha256": "d8c62d10036f9ff0f40fb76512ce1fbfed17240dfcbffe1ed39c9f0db14d70e8",
+  "changed_firmware_files": [
+    "sms_audio_output.cpp",
+    "sms_audio_output.h",
+    "SMS_S3.ino",
+    "sms_video_output.cpp",
+    "sms_video_output.h"
+  ],
+  "core_and_ble_sources_unchanged": true,
+  "live_perf_strings_absent_from_elf": true,
+  "physical_test": "not performed"
+}
